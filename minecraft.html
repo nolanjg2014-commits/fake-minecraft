@@ -1,4 +1,4 @@
-
+html_content = """
 <!DOCTYPE html>
 <html>
 <head>
@@ -9,3 +9,11 @@
     <p>play mini games leaderboards achivements help & options minecraft store exit game.</p>
 </body>
 </html>
+"""
+
+file_name = 'minecraft.html'
+
+with open(file_name, 'w') as f:
+    f.write(html_content)
+
+print(f"'{file_name}' has been created successfully!")
